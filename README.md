@@ -26,8 +26,8 @@ A simple movie recommendation system built using **Python** and **Streamlit**. T
 ## How It Works
 
 1. Movie data is loaded and preprocessed.
-2. TF-IDF Vectorization converts movie overviews into numerical feature vectors.
-3. Cosine Similarity measures the similarity between movies.
+2. Movie genres are transformed into numerical feature vectors using TF-IDF Vectorization.
+3. Cosine Similarity is used to identify movies with similar genres.
 4. The similarity matrix is saved as a Pickle file.
 5. The Streamlit application recommends the five most similar movies based on the selected title.
 
@@ -89,20 +89,6 @@ The generated `.pkl` files are not included in this repository. Running the note
 
 ---
 
-## Example
+<h2>Recommendations</h2>
 
-**Input**
-
-```
-Interstellar
-```
-
-**Output**
-
-```
-The Martian
-Gravity
-Moon
-Contact
-Sunshine
-```
+<img src="recommendation.png" width="700">
