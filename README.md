@@ -88,5 +88,3 @@ streamlit run app.py
 The generated `.pkl` files are not included in this repository. Running the notebook creates the required files automatically.
 
 ---
-###streamlit
-![Movie Recommendation System](recommendation.png)
